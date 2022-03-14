@@ -28,6 +28,8 @@ const Recipe = () => {
          <>
             <li>{cake.cakeName}</li>
             <p>{cake.rating}</p>
+            {/* the join, joins all the items in the array by a , and a space*/}
+            <p>{cake.ingredients.join(', ')}</p>
             
         </>
         )
